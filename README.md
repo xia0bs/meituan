@@ -1,7 +1,7 @@
-# 美团移动端页面
+# MeiTuan Moblie
 
-- 主页
-- 登录页
-- 定位页
-- 电影
-- 美食详情页
+- index
+- login
+- map
+- movie
+- detail
