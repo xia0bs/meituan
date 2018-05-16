@@ -1,0 +1,207 @@
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 633095 */
+  src: url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.eot');
+  src: url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.svg#iconfont') format('svg');
+}
+
+body{
+	background-color: #fff;
+}
+
+.zuo{
+	float: left;
+	display: block;
+	font-size: .6rem;
+	font-weight: 300;
+	padding: 0 .3rem;
+	color: #fff;
+}
+
+header{
+	width: 100%;
+	height: 1.02rem;
+	background: #06c1ae;
+	color: #fff;
+	border-bottom: 0.01rem solid #21897d;
+}
+
+.movie{
+	font-weight: 100;
+	line-height: 1.02rem;
+	padding-left: 3.2rem;
+}
+
+
+.card{
+	width: 100%;
+	height: .88rem;
+	border-bottom: .01rem solid #e6e6e6;
+}
+
+.zi{
+	float: left;
+	line-height: 44px;
+	margin-left: 1.3rem;
+}
+
+.zi li{
+	float: left;
+	margin-left:.8rem;
+	color: #666;
+}
+
+.zi li:first-of-type{
+	color: red;
+	border-bottom: .03rem solid red;
+}
+
+.card i{
+	float: right;
+	font-family: 'iconfont';
+	font-size: .4rem;
+	padding: 10px 15px 10px 10px;
+	color: red;
+}
+
+.box{
+	width: 6.88rem;
+	height: 2.28rem;
+	padding-left: .3rem;
+	position: relative;
+	border-bottom: .01rem solid #f5f5f5;
+}
+
+
+.box img{
+	display: block;
+	width: 1.28rem;
+	height: 1.8rem;
+	position: absolute;
+	left: .3rem;
+	top: .24rem;
+}
+
+.main{
+	width: 5.12rem;
+	height: 1.8rem;
+	padding: .12rem .14rem .12rem 0;
+    margin-left: .74rem;
+	position: absolute;
+	left: 1.04rem;
+	top: .24rem;
+}
+
+.shuju{
+	color: #faaf00;
+    font-size: .16rem;
+    font-weight: 600;
+    line-height: .3rem;
+    margin-top: .12rem;
+}
+
+.zhuyan , .today , .shuju span{
+	width: 4.06rem;
+	color: #777;
+	font-size: .15rem;
+    font-weight: 300;
+    line-height: .3rem;
+    margin-top: .12rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+.btn{
+	margin: .87rem 0;
+	position: absolute;
+	right: .14rem;
+	top: 0;
+}
+
+.btn button{
+	width: .94rem;
+	height: .54rem;
+	background-color: #3c9fe6;
+	line-height: .28rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: .08rem;
+    font-size: .24rem;
+    font-weight: lighter;
+}
+
+.btn1{
+	margin: .87rem 0;
+	position: absolute;
+	right: .14rem;
+	top: 0;
+}
+
+.btn1 button{
+	width: .94rem;
+	height: .54rem;
+	background-color: #f03d37;
+	line-height: .28rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: .08rem;
+    font-size: .24rem;
+    font-weight: lighter;
+}
+
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: .96rem;
+	background-color: #fff;
+	border-top: .5px solid #d8d8d8;
+}
+
+footer ul li{
+	padding-top: .1rem;
+	float: left;
+    box-sizing: border-box;
+    text-align: center;
+    width: 2.5rem;
+    height: .96rem;
+    box-sizing: border-box;
+}
+
+footer ul li a{
+	color: #777;
+	line-height: .48rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+footer ul li:first-child a{
+	color: #f03d37;
+}
+
+footer ul li a i{
+	font-family: 'iconfont';
+	font-size: .5rem;
+	line-height: .48rem;
+}
+
+footer ul li a span{
+	display: block;
+	font-size: .1rem;
+	margin: 0 auto;
+	line-height: .24rem;
+}
+

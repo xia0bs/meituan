@@ -1,0 +1,131 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 633095 */
+  src: url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.eot');
+  src: url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_633095_w9ecijrel2x4j9k9.svg#iconfont') format('svg');
+}
+
+body{
+  background-color: #f0efed;
+}
+
+header{
+	width: 100%;
+	height: 1.01rem;
+    color: #fff;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+}
+
+.zuo{
+	float: left;
+  display: block;
+  font-size: .6rem;
+  font-weight: 300;
+  padding: 0 .3rem;
+  color: #fff;
+}
+
+header h1{
+  float: left;
+  display: block;
+  font-size: .36rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1rem;
+  padding-left: 2.4rem;
+}
+
+.you{
+  float: right;
+  padding-right: .1rem;
+}
+
+.you i{
+  font-family: 'iconfont';
+  display: block;
+  font-size: .4rem;
+  margin-top: .2rem;
+  text-align: center;
+
+}
+
+.you span{
+  display: block;
+  font-size: .01rem;
+  line-height: 1;
+  -webkit-transform:scale(0.833); 
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  height: 3.8rem;
+}
+
+.denglu li{
+  float: left;
+  width: 50%;
+  text-align: center;
+  display: block;
+  line-height: 1;
+  padding-top: .28rem;
+  padding-bottom: .2rem;
+  font-size:.28rem;
+  border-bottom: .08rem solid #DDD8CE;
+}
+
+.denglu li:first-of-type{
+  color: #06c1ae;
+  border-bottom: .08rem solid #06c1ae;
+}
+
+.text{
+  padding-left: .2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #DDD8CE;
+}
+
+.text li:first-of-type{
+  border-bottom: 1px solid #DDD8CE;
+}
+
+.text li input{
+  width: 6.8rem;
+  height: .3rem;
+  padding: .28rem .2rem;
+  overflow: hidden;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.btn{
+  margin: .28rem .2rem;
+}
+
+button{
+  background-color: #06c1ae;
+  height: .94rem;
+  line-height: .94rem;
+  font-size: .4rem;
+  display: block;
+  width: 100%;
+  padding: 0 .32rem;
+  border-radius: .06rem;
+  color: #fff;
+}
+
+.zhuce{
+  margin-top: .4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .2rem;
+  color: #06c1ae;
+}
+
+.zhuce li{
+  font-size: .28rem;
+}

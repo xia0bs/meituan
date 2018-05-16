@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 633095 */
+  src: url('https://at.alicdn.com/t/font_633095_2obci1g5tg25ipb9.eot');
+  src: url('https://at.alicdn.com/t/font_633095_2obci1g5tg25ipb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_633095_2obci1g5tg25ipb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_633095_2obci1g5tg25ipb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_633095_2obci1g5tg25ipb9.svg#iconfont') format('svg');
+}
+
+
+body{
+	background-color: #f0efed;
+}
+
+header{
+	width: 100%;
+	height: 1.02rem;
+	background: #06c1ae;
+	color: #fff;
+	border-bottom: 0.01rem solid #21897d;
+}
+
+.header_l{
+	float: left;
+	font-size: .6rem;
+	padding: 0 .3rem;
+    width: .45rem;
+    height: .45rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.header_m{
+	float: left;
+	text-align: center;
+	font-size: .36rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin: 0;
+    width: 4.53rem;
+    height: 100%;
+}
+
+.header_r{
+	float: right;
+}
+
+.header_r a{
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: .9rem;
+    margin-top: .15rem;
+}
+
+.header_r a i{
+	font-family: 'iconfont';
+	margin-bottom: .1rem;
+	font-size: .4rem;
+}
+
+.header_r a span{
+	display: block;
+	font-size: .2rem;
+}
+
+.ad{
+	width: 100%;
+	height: 2.2rem;
+}
+
+.ad img{
+	width: 100%;
+}
+
+.banner{
+	width: 100%;
+	height: 3.9rem;
+	position: relative;
+}
+
+.cover{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 2.22rem;
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.58),rgba(0,0,0,.3) 64%,transparent);
+}
+
+.banner img{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.banner_text{
+	position: absolute;
+	bottom: .24rem;
+	left: 0;
+	left: .3rem;
+    right: .3rem;
+    z-index: 2;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+.banner_text h1{
+	margin-bottom: .14rem;
+    font-size: .38rem;
+    line-height: 1.1;
+	font-weight: normal;
+}
+
+.title{
+	width: 100%;
+	padding: .28rem .2rem;
+	position: relative;
+	background: #fff;
+	border-bottom: 1px solid #DDD8CE;
+	box-sizing: border-box;
+}
+
+.title h1{
+	color: #06c1ae;
+	font-size: .56rem;
+	margin-right: .06rem;
+	display: inline-block;
+}
+
+.title span{
+	letter-spacing: -.02rem;
+	color: #999;
+	font-size: .28rem;
+}
+
+.title button{
+	background-color: #f90;
+	position: absolute;
+    right: .2rem;
+    top: .21rem;
+    height: .8rem;
+    width: 2.6rem;
+    margin: 0;
+    line-height: .8rem;
+    font-size: .4rem;
+    padding: 0 .32rem;
+    text-align: center;
+    border-radius: .06rem;
+    color: #fff;
+}
+
+
+.ps{
+	height: 1.3rem;
+	padding: .28rem .2rem;
+	background-color: #fff;
+}
+
+.ps li i{
+	font-family: 'iconfont';
+	margin-right: .16rem;
+    margin-left: .1rem;
+}
+
+.ps li{
+	color: #6bbd00;
+	font-size: .28rem;
+	display: inline-block;
+    height: .6rem;
+    width: 50%;
+    line-height: .6rem;
+    text-align: left;
+    float: left;
+}
+
+.tag{
+	width: 100%;
+	height: 3.64rem;
+	border-top: 1px solid #DDD8CE;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #DDD8CE;
+    background-color: #fff;
+}
+
+.tag h1{
+	font-size: .34rem;
+    line-height: 1.5;
+    padding: .22rem .2rem .14rem;
+    color: #333;
+    font-weight: normal;
+    border-bottom: 1px solid #DDD8CE;
+}
+
+.map{
+	padding: .28rem .2rem;
+	font-size: .28rem;
+    line-height: 1.5;
+    color: #333;
+    height: 1.42rem;
+}
+
+.map_l{
+	float: left;
+	width: 5.69rem;
+	height: 100%;
+}
+
+.map_r{
+	float: right;
+	width: 1.3rem;
+    text-align: center;
+    border-left: 1px solid #DDD8CE;
+    font-size: .5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #06c1ae;
+}
+
+.map_l h2{
+	margin-top: 0;
+    margin-bottom: .06rem;
+    font-size: .32rem;
+    color: #000;
+}
+
+.map_l p{
+	padding-right: .2rem;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.map_l i{
+	font-family: 'iconfont';
+	display: inline-block;
+}
+
+.map_l span{
+	margin-left: .3rem;
+    color: #EB8706;
+}
+
+.map_r i{
+	font-family: 'iconfont';
+	color: #06c1ae;
+	font-size: .5rem;
+}
+
+.tag h3{
+	display: block;
+	color: #06c1ae;
+	line-height: .8rem;
+    font-size: .3rem;
+    font-weight: normal;
+    height: .8rem;
+    border-top: 1px solid #DDD8CE;
+    padding-left: .2rem;
+}
+
+.taocan{
+	width: 100%;
+	height: 11.09rem;
+	margin-top: .2rem;
+
+}
+
+.tc{
+	font-size: .34rem;
+    line-height: 1.5;
+    padding: .22rem .2rem .14rem;
+    color: #333;
+    border-bottom: 1px solid #DDD8CE;
+    background-color: #fff;
+}
+
+.sanxuanyi{
+	width: 100%;
+	height: 3.24rem;
+	background-color: #fff;
+}
+
+.sxy{
+	text-align: center;
+	background-color: #F8F9FA;
+    padding: .1rem;
+    margin: 0;
+    font-size: .3rem;
+    color: #000;
+}
+
+.t1{
+	
+	display: block;
+    
+	float: left;
+	
+}
+
+.t1 li{
+	width: 3.38rem;
+	height: .42rem;
+	border-right: 1px solid #DDD8CE;
+	border-bottom: 1px solid #DDD8CE;
+	line-height: 1.41;
+	margin-left: .2rem;
+	padding: .22rem 0;
+    padding-right: .2rem;
+}
+
+.t2{
+	float: left;
+}
+
+.t2 li{
+	width: 1.7rem;
+	height: .42rem;
+	border-right: 1px solid #DDD8CE;
+	border-bottom: 1px solid #DDD8CE;
+	line-height: 1.41;
+	padding: .22rem .2rem;
+}
+
+.t3{
+	float: right;
+}
+
+.t3 li{
+	width: 1.18rem;
+	height: .42rem;
+	border-bottom: 1px solid #DDD8CE;
+	line-height: 1.41;
+	padding: .22rem .2rem;
+}
+
+.bz{
+	text-align: center;
+	border-bottom: 1px solid #DDD8CE;
+    line-height: 1.41;
+    background-color: #F8F9FA;
+    padding: .1rem;
+    font-size: .3rem;
+    color: #000;
+}
+
+.beizhu{
+	width: 7.1rem;
+	height: 4.95rem;
+	padding: .28rem .2rem;
+	background-color: #fff;
+}
+
+.liebiao{
+	padding-left: .4rem;
+}
+
+.liebiao li{
+	width: 6.7rem;
+	height: .45rem;
+	font-size: .3rem;
+}
+
+.tuwen{
+	width: 7.5rem;
+	height: .8rem;
+    background-color: #fff;
+    border-top: 1px solid #DDD8CE;
+}
+
+.tuwen a{
+	float: left;
+	display: block;
+	padding: 0 .2rem;
+	color: #06c1ae;
+	line-height: .8rem;
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+.tuwen span{
+	float: right;
+	display: block;
+	padding: 0 .3rem;
+	color: #06c1ae;
+	line-height: .8rem;
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+
+
+
+
